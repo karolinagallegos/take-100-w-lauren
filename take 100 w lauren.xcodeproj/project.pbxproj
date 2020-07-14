@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5ADF275724BE448200A50B97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADF275624BE448200A50B97 /* AppDelegate.swift */; };
+		5ADF275924BE448200A50B97 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADF275824BE448200A50B97 /* SceneDelegate.swift */; };
+		5ADF275B24BE448200A50B97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADF275A24BE448200A50B97 /* ViewController.swift */; };
+		5ADF275E24BE448200A50B97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ADF275C24BE448200A50B97 /* Main.storyboard */; };
+		5ADF276124BE448200A50B97 /* take_100_w_lauren.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5ADF275F24BE448200A50B97 /* take_100_w_lauren.xcdatamodeld */; };
+		5ADF276324BE448400A50B97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ADF276224BE448400A50B97 /* Assets.xcassets */; };
+		5ADF276624BE448400A50B97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ADF276424BE448400A50B97 /* LaunchScreen.storyboard */; };
+		5ADF277124BE448400A50B97 /* take_100_w_laurenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADF277024BE448400A50B97 /* take_100_w_laurenTests.swift */; };
+		5ADF277C24BE448500A50B97 /* take_100_w_laurenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADF277B24BE448500A50B97 /* take_100_w_laurenUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5ADF276D24BE448400A50B97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5ADF274B24BE448200A50B97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5ADF275224BE448200A50B97;
+			remoteInfo = "take 100 w lauren";
+		};
+		5ADF277824BE448400A50B97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5ADF274B24BE448200A50B97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5ADF275224BE448200A50B97;
+			remoteInfo = "take 100 w lauren";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5ADF275324BE448200A50B97 /* take 100 w lauren.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "take 100 w lauren.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ADF275624BE448200A50B97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5ADF275824BE448200A50B97 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5ADF275A24BE448200A50B97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5ADF275D24BE448200A50B97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5ADF276024BE448200A50B97 /* take_100_w_lauren.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = take_100_w_lauren.xcdatamodel; sourceTree = "<group>"; };
+		5ADF276224BE448400A50B97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5ADF276524BE448400A50B97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5ADF276724BE448400A50B97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5ADF276C24BE448400A50B97 /* take 100 w laurenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "take 100 w laurenTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ADF277024BE448400A50B97 /* take_100_w_laurenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = take_100_w_laurenTests.swift; sourceTree = "<group>"; };
+		5ADF277224BE448400A50B97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5ADF277724BE448400A50B97 /* take 100 w laurenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "take 100 w laurenUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ADF277B24BE448500A50B97 /* take_100_w_laurenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = take_100_w_laurenUITests.swift; sourceTree = "<group>"; };
+		5ADF277D24BE448500A50B97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5ADF275024BE448200A50B97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ADF276924BE448400A50B97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ADF277424BE448400A50B97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5ADF274A24BE448200A50B97 = {
+			isa = PBXGroup;
+			children = (
+				5ADF275524BE448200A50B97 /* take 100 w lauren */,
+				5ADF276F24BE448400A50B97 /* take 100 w laurenTests */,
+				5ADF277A24BE448500A50B97 /* take 100 w laurenUITests */,
+				5ADF275424BE448200A50B97 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5ADF275424BE448200A50B97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5ADF275324BE448200A50B97 /* take 100 w lauren.app */,
+				5ADF276C24BE448400A50B97 /* take 100 w laurenTests.xctest */,
+				5ADF277724BE448400A50B97 /* take 100 w laurenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5ADF275524BE448200A50B97 /* take 100 w lauren */ = {
+			isa = PBXGroup;
+			children = (
+				5ADF275624BE448200A50B97 /* AppDelegate.swift */,
+				5ADF275824BE448200A50B97 /* SceneDelegate.swift */,
+				5ADF275A24BE448200A50B97 /* ViewController.swift */,
+				5ADF275C24BE448200A50B97 /* Main.storyboard */,
+				5ADF276224BE448400A50B97 /* Assets.xcassets */,
+				5ADF276424BE448400A50B97 /* LaunchScreen.storyboard */,
+				5ADF276724BE448400A50B97 /* Info.plist */,
+				5ADF275F24BE448200A50B97 /* take_100_w_lauren.xcdatamodeld */,
+			);
+			path = "take 100 w lauren";
+			sourceTree = "<group>";
+		};
+		5ADF276F24BE448400A50B97 /* take 100 w laurenTests */ = {
+			isa = PBXGroup;
+			children = (
+				5ADF277024BE448400A50B97 /* take_100_w_laurenTests.swift */,
+				5ADF277224BE448400A50B97 /* Info.plist */,
+			);
+			path = "take 100 w laurenTests";
+			sourceTree = "<group>";
+		};
+		5ADF277A24BE448500A50B97 /* take 100 w laurenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5ADF277B24BE448500A50B97 /* take_100_w_laurenUITests.swift */,
+				5ADF277D24BE448500A50B97 /* Info.plist */,
+			);
+			path = "take 100 w laurenUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5ADF275224BE448200A50B97 /* take 100 w lauren */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ADF278024BE448500A50B97 /* Build configuration list for PBXNativeTarget "take 100 w lauren" */;
+			buildPhases = (
+				5ADF274F24BE448200A50B97 /* Sources */,
+				5ADF275024BE448200A50B97 /* Frameworks */,
+				5ADF275124BE448200A50B97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "take 100 w lauren";
+			productName = "take 100 w lauren";
+			productReference = 5ADF275324BE448200A50B97 /* take 100 w lauren.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5ADF276B24BE448400A50B97 /* take 100 w laurenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ADF278324BE448500A50B97 /* Build configuration list for PBXNativeTarget "take 100 w laurenTests" */;
+			buildPhases = (
+				5ADF276824BE448400A50B97 /* Sources */,
+				5ADF276924BE448400A50B97 /* Frameworks */,
+				5ADF276A24BE448400A50B97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5ADF276E24BE448400A50B97 /* PBXTargetDependency */,
+			);
+			name = "take 100 w laurenTests";
+			productName = "take 100 w laurenTests";
+			productReference = 5ADF276C24BE448400A50B97 /* take 100 w laurenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5ADF277624BE448400A50B97 /* take 100 w laurenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ADF278624BE448500A50B97 /* Build configuration list for PBXNativeTarget "take 100 w laurenUITests" */;
+			buildPhases = (
+				5ADF277324BE448400A50B97 /* Sources */,
+				5ADF277424BE448400A50B97 /* Frameworks */,
+				5ADF277524BE448400A50B97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5ADF277924BE448400A50B97 /* PBXTargetDependency */,
+			);
+			name = "take 100 w laurenUITests";
+			productName = "take 100 w laurenUITests";
+			productReference = 5ADF277724BE448400A50B97 /* take 100 w laurenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5ADF274B24BE448200A50B97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Karolina Gallegos";
+				TargetAttributes = {
+					5ADF275224BE448200A50B97 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					5ADF276B24BE448400A50B97 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 5ADF275224BE448200A50B97;
+					};
+					5ADF277624BE448400A50B97 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 5ADF275224BE448200A50B97;
+					};
+				};
+			};
+			buildConfigurationList = 5ADF274E24BE448200A50B97 /* Build configuration list for PBXProject "take 100 w lauren" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5ADF274A24BE448200A50B97;
+			productRefGroup = 5ADF275424BE448200A50B97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5ADF275224BE448200A50B97 /* take 100 w lauren */,
+				5ADF276B24BE448400A50B97 /* take 100 w laurenTests */,
+				5ADF277624BE448400A50B97 /* take 100 w laurenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5ADF275124BE448200A50B97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ADF276624BE448400A50B97 /* LaunchScreen.storyboard in Resources */,
+				5ADF276324BE448400A50B97 /* Assets.xcassets in Resources */,
+				5ADF275E24BE448200A50B97 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ADF276A24BE448400A50B97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ADF277524BE448400A50B97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5ADF274F24BE448200A50B97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ADF275B24BE448200A50B97 /* ViewController.swift in Sources */,
+				5ADF275724BE448200A50B97 /* AppDelegate.swift in Sources */,
+				5ADF275924BE448200A50B97 /* SceneDelegate.swift in Sources */,
+				5ADF276124BE448200A50B97 /* take_100_w_lauren.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ADF276824BE448400A50B97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ADF277124BE448400A50B97 /* take_100_w_laurenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ADF277324BE448400A50B97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ADF277C24BE448500A50B97 /* take_100_w_laurenUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5ADF276E24BE448400A50B97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5ADF275224BE448200A50B97 /* take 100 w lauren */;
+			targetProxy = 5ADF276D24BE448400A50B97 /* PBXContainerItemProxy */;
+		};
+		5ADF277924BE448400A50B97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5ADF275224BE448200A50B97 /* take 100 w lauren */;
+			targetProxy = 5ADF277824BE448400A50B97 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5ADF275C24BE448200A50B97 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5ADF275D24BE448200A50B97 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5ADF276424BE448400A50B97 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5ADF276524BE448400A50B97 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5ADF277E24BE448500A50B97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5ADF277F24BE448500A50B97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5ADF278124BE448500A50B97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "take 100 w lauren/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Karolina.take-100-w-lauren";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5ADF278224BE448500A50B97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "take 100 w lauren/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Karolina.take-100-w-lauren";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5ADF278424BE448500A50B97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "take 100 w laurenTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Karolina.take-100-w-laurenTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/take 100 w lauren.app/take 100 w lauren";
+			};
+			name = Debug;
+		};
+		5ADF278524BE448500A50B97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "take 100 w laurenTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Karolina.take-100-w-laurenTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/take 100 w lauren.app/take 100 w lauren";
+			};
+			name = Release;
+		};
+		5ADF278724BE448500A50B97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "take 100 w laurenUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Karolina.take-100-w-laurenUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "take 100 w lauren";
+			};
+			name = Debug;
+		};
+		5ADF278824BE448500A50B97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "take 100 w laurenUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Karolina.take-100-w-laurenUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "take 100 w lauren";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5ADF274E24BE448200A50B97 /* Build configuration list for PBXProject "take 100 w lauren" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ADF277E24BE448500A50B97 /* Debug */,
+				5ADF277F24BE448500A50B97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5ADF278024BE448500A50B97 /* Build configuration list for PBXNativeTarget "take 100 w lauren" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ADF278124BE448500A50B97 /* Debug */,
+				5ADF278224BE448500A50B97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5ADF278324BE448500A50B97 /* Build configuration list for PBXNativeTarget "take 100 w laurenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ADF278424BE448500A50B97 /* Debug */,
+				5ADF278524BE448500A50B97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5ADF278624BE448500A50B97 /* Build configuration list for PBXNativeTarget "take 100 w laurenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ADF278724BE448500A50B97 /* Debug */,
+				5ADF278824BE448500A50B97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5ADF275F24BE448200A50B97 /* take_100_w_lauren.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5ADF276024BE448200A50B97 /* take_100_w_lauren.xcdatamodel */,
+			);
+			currentVersion = 5ADF276024BE448200A50B97 /* take_100_w_lauren.xcdatamodel */;
+			path = take_100_w_lauren.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5ADF274B24BE448200A50B97 /* Project object */;
+}
